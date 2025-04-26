@@ -11,7 +11,7 @@ namespace StudentPortal.Controllers
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
-            _logger.LogInformation("this is a test info home page, first change");
+            _logger.LogInformation("this is a test info home page, second change");
         }
 
         public IActionResult Index()
